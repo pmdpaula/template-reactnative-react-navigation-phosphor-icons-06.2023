@@ -8,6 +8,8 @@
 
 ## Instalações de lint e demais pacotes de desenvolvimento
 
+
+
 ### Lint e organização do código (dependências de desenvolvimento)
 [eslint](https://eslint.org/docs/latest/use/getting-started)
 [prettier](https://prettier.io/docs/en/install.html)
@@ -141,12 +143,34 @@ yarn add -D eslint prettier eslint-config-prettier eslint-plugin-react @typescri
 
 
 
-# Pacotes
 
-## Fontes
 
-[expo fonts usando Google fonts](https://github.com/expo/google-fonts)
+
+## Adição de recursos na aplicação
+
+- [expo fonts usando Google fonts](https://github.com/expo/google-fonts)
 
 ```bash
 npx expo install @expo-google-fonts/baloo-2 @expo-google-fonts/roboto expo-font
 ```
+
+
+
+- [Navegação nas páginas - React Navigation](https://reactnavigation.org/docs/getting-started/)
+```bash
+yarn add @react-navigation/native
+npx expo install react-native-screens react-native-safe-area-context
+
+yarn add @react-navigation/native-stack
+```
+Acima instalamos duas formas de navegação: stack e bottom-tabs
+
+
+
+
+- [Phosphor Icons - biblioteca de ícones - phosphor-react-native](https://phosphoricons.com/)
+```bash
+yarn add phosphor-react-native
+npx expo install react-native-svg
+```
+
